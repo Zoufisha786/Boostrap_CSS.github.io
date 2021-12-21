@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Home_Mentor.css">
+    <style>
+            @media only screen and (max-width:600px){
+                .logo{     
+                position: absolute;
+                top: 20%;
+                left: 43%;
+                font-size: 55px;
+                color: #eb2929;
+                text-align: center;
+                font-weight: 500;
+                width: 85px;
+                height: 85px;
+                background-color: white;
+                font-family: Poppins;
+                border-radius: 50%;
+             }  
+             .heading{
+                position: absolute;
+                top: 35%;
+                font-size: 28px;
+                left: 10%;
+                color: white;
+                font-family: Poppins;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.53;
+                letter-spacing: normal;
+                text-align: center;
+            }
+            .selectLocation{
+                position: absolute;
+                top:55%;
+                left:3%;
+                font-size: 11px;
+                height: 20px;
+                font-family: Poppins;
+                font-style: normal;
+                line-height: 1.53;
+                letter-spacing: normal;
+            }
+           
+            .quicksearch {
+                width: 400px;
+                height: 43px;
+                margin: 35px 151px 7px 10px;
+                font-family: Poppins;
+                font-size: 27px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.53;
+                letter-spacing: normal;
+                text-align: left;
+                color: #192f60;
+            }
+            .subheading{
+                width: 331px;
+            height: 18px;
+            margin: 3px 59px 33px 10px;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8c96ab;
+            }   
+            select.dd {
+        width: 320px;
+            height: 40px;
+            padding: 5px;
+            color: grey;
+            appearance: none;
+            font-family: Poppins;
+            font-size: 13px;
+
+  }
+  .dd_search {
+      position: absolute;
+      top: 50%;
+      left: 20%;
+  }
+  input.search-box {
+      height: 40px;
+      padding-left: 30px;
+      margin: 10px;
+      font-family: Poppins;
+      font-size: 13px;
+      width:320px;
+       margin-left: 0px;
+  }
+  .search {
+      position: absolute;
+      left: 3%;
+      top: 62px !important;
+      color: grey;
+  }   
+  .login {
+      position: absolute;
+      top: 3%;
+      left: 5%;
+      border-radius: 3px;
+      border: 0px none;  
+      background:none; 
+      color: #ffffff;
+      font-size: 12px;
+      font-family: Poppins;
+      font-weight: 600;
+  }
+  .create{
+      position: absolute;
+      top: 8%;
+      left:5%;
+      border-radius: 3px;
+      border: 2px solid white;  
+      background:none; 
+      color: #ffffff;
+      font-size: 12px;
+      font-family: Poppins;
+      font-weight: 600;
+      padding: 5px;
+  }
+}
+@media only screen and (max-width: 792px) and (min-width: 600px) 
+{
+    .heading {
+    position: absolute;
+    top: 20%;
+    font-size: 36px;
+    left: 2%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+}
+select.dd {
+    width: 270px;
+    height: 50px;
+    padding: 8px;
+    color: grey;
+    appearance: none;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.dd_search {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+.search {
+    position: absolute;
+    left: 49%;
+    top: 24px !important;
+    color: grey;
+}
+input.search-box {
+    height: 50px;
+    top: 45px;
+    padding-left: 32px;
+    left: 45%;
+    width: 300px;
+    margin: 7px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.login {
+      position: absolute;
+      top: 3%;
+      left: 3%;
+      border-radius: 3px;
+      border: 0px none;  
+      background:none; 
+      color: #ffffff;
+      font-size: 12px;
+      font-family: Poppins;
+      font-weight: 600;
+  }
+  .create{
+      position: absolute;
+      top: 8%;
+      left:3%;
+      border-radius: 3px;
+      border: 2px solid white;  
+      background:none; 
+      color: #ffffff;
+      font-size: 12px;
+      font-family: Poppins;
+      font-weight: 600;
+      padding: 5px;
+  }   
+}
+    </style>
+</head>
+<body>
+    <img src="./Home_Pic.png" alt="" width="100%" height="480px">
+    <input type="button" value="Login" class="login">
+    <input type="button" value="Create an account" class="create">
+    <div>
+        <b class="logo">e!</b>
+    </div>
+    <div class="heading">Find the best restaurants, cafés, and bars</div>
+    <div class="dd_search">
+            <select class="dd">
+                <option>Please select a location</option>
+            </select>
+            <div style="display: inline-block;" id="block">
+                <span class="glyphicon glyphicon-search search"></span>
+                <input class="search-box" type="text" placeholder="Search for restaurants" />
+            </div>
+    </div>
+     <div class="container">
+            <div class="quicksearch">Quick Searches</div>
+            <div class="subheading">Discover restaurants by type of meal</div>
+    
+            <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div style="height: 160px;width: 360px;margin: 10px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);">
+                            <div style="display: inline-block; width: 30%;">
+                                <img class="Breakfast" src="./breakfast.png" /></div>
+                            <div style="display: inline-block; width: 66%;vertical-align: top;">
+                                <div style="margin: 25px 49px 0px 70px;font-family: Poppins;font-size: 18px;font-weight: 600;color: #192f60;">Breakfast</div>
+                            <div style="margin: 10px 49px 0px 70px;font-family: Poppins;font-size: 12px;color: #8c96ab;">Start your day with </br>
+                                exclusive breakfast</br> 
+                                options</div></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div style="height:160px;width:360px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);margin: 10px ;">
+                            <div style="display: inline-block; width: 30%;">
+                                <img class="Breakfast" src="./Lunch.png" /></div>
+                            <div style="display: inline-block; width: 66%;vertical-align: top;">
+                                <div style="margin: 25px 49px 0px 70px;font-family: Poppins;font-size: 18px;font-weight: 600;color: #192f60;">Lunch</div>
+                            <div style="margin: 10px 49px 0px 70px;font-family: Poppins;font-size: 12px;color: #8c96ab;">Start your day with </br>
+                                exclusive breakfast</br> 
+                                options</div></div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div style="height:160px;width:360px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);;margin: 10px;">
+                            <div style="display: inline-block; width: 30%;">
+                                <img class="Breakfast" src="./Snacks.png" /></div>
+                            <div style="display: inline-block; width: 66%;vertical-align: top;">
+                                <div style="margin: 25px 49px 0px 70px;font-family: Poppins;font-size: 18px;font-weight: 600;color: #192f60;">Snacks</div>
+                            <div style="margin: 10px 49px 0px 70px;font-family: Poppins;font-size: 12px;color: #8c96ab;">Start your day with </br>
+                                exclusive breakfast</br> 
+                                options</div>
+                            </div>        
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div style="height:160px;width:360px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);margin: 10px;">
+                            <div style="display: inline-block; width: 30%;">
+                                <img class="Breakfast" src="./dinner.png" /></div>
+                            <div style="display: inline-block; width: 66%;vertical-align: top;">
+                                <div style="margin: 25px 49px 0px 70px;font-family: Poppins;font-size: 18px;font-weight: 600;color: #192f60;">Dinner</div>
+                            <div style="margin: 10px 49px 0px 70px;font-family: Poppins;font-size: 12px;color: #8c96ab;">Start your day with </br>
+                                exclusive breakfast</br> 
+                                options</div></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div style="height:160px;width:360px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);margin: 10px;">
+                            <div style="display: inline-block; width: 30%;">
+                                <img class="Breakfast" src="./drinks.png" /></div>
+                            <div style="display: inline-block; width: 66%;vertical-align: top;">
+                                <div style="margin: 25px 49px 0px 70px;font-family: Poppins;font-size: 18px;font-weight: 600;color: #192f60;">Drinks</div>
+                            <div style="margin: 10px 49px 0px 70px;font-family: Poppins;font-size: 12px;color: #8c96ab;">Start your day with </br>
+                                exclusive breakfast</br> 
+                                options</div></div></div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div style="height:160px;width:360px;box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);margin: 10px;">
+                            <div style="display: inline-block; width: 30%;">
+                                <img class="Breakfast" src="./nightlife.png" /></div>
+                            <div style="display: inline-block; width: 66%;vertical-align: top;">
+                                <div style="margin: 25px 49px 0px 70px;font-family: Poppins;font-size: 18px;font-weight: 600;color: #192f60;">NightLifes</div>
+                            <div style="margin: 10px 49px 0px 70px;font-family: Poppins;font-size: 12px;color: #8c96ab;">Start your day with </br>
+                                exclusive breakfast</br> 
+                                options</div></div></div>
+                    </div>
+            </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,129 @@
+ .logo{     
+        position: absolute;
+        top: 16%;
+        left:45%;
+        font-size: 70px;
+        color:#eb2929;
+        text-align: center;
+        font-weight: 500;
+        width: 110px;
+        height:110px;
+        background-color: white;
+        font-family: Poppins;
+        border-radius: 50%;
+    }  
+    
+    .heading{
+            position:absolute;
+            top:35%;
+            font-size: 36px;
+            left:25%;
+            color:white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.53;
+          letter-spacing: normal;
+    }
+    .selectLocation{
+        position: absolute;
+        top:45%;
+        left:28%;
+        font-size: 15px;
+        height: 60px;
+        font-family: Poppins;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+    }
+    .quicksearch {
+        width: 400px;
+        height: 43px;
+        margin: 48px 151px 7px 10px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+      }
+      .subheading{
+        width: 331px;
+      height: 25px;
+      margin: 7px 59px 33px 10px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      }
+      .Breakfast{
+        width: 160px;
+        height: 160px;
+        object-fit:fill;
+    }
+    select.dd {
+      width: 186px;
+      height: 40px;
+      padding: 8px;
+      color: grey;
+      appearance: none;
+      font-family: Poppins;
+  }
+  .dd_search {
+      position: absolute;
+      top: 45%;
+      left: 35%;
+  }
+  input.search-box {
+      height: 40px;
+      top: 45px;
+      padding-left: 32px;
+      left: 45%;
+      width: 300px;
+      margin: 7px;
+      font-family: Poppins;
+      font-size: 14px;
+  }
+  .search {
+      position: absolute;
+      left: 41%;
+      top: 20px !important;
+      color: grey;
+  }
+  .login {
+      position: absolute;
+      top: 4%;
+      left: 83%;
+      border-radius: 3px;
+      border: 0px none;  
+      background:none; 
+      color: #ffffff;
+      font-size: 14px;
+      font-family: Poppins;
+      font-weight: 500;
+  }
+  .create{
+      position: absolute;
+      top: 3%;
+      left: 88%;
+      border-radius: 3px;
+      border: 2px solid white;  
+      background:none; 
+      color: #ffffff;
+      font-size: 14px;
+      font-family: Poppins;
+      font-weight: 500;
+      padding: 5px;
+  }
+    
+    
+  
